@@ -26,7 +26,7 @@ class Card {
     }
 
     public String toString() {
-        return  "suit:" + suit +
+        return  "suit=" + suit +
                 ", color=" + color +
                 ", value=" + value ;
     }
