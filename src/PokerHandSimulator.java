@@ -128,9 +128,12 @@ class Deck {
     }
 }
 
-// al usar public static void main este es el entry point del programa
+/* al usar public static void main este es el entry point del programa
+
+ */
 public class PokerHandSimulator {
     public static void main(String[] args) {
+        //Se crea una nueva instancia de la clase Deck, para crear la baraja de 52 cartas
         Deck baraja = new Deck();
 
         // Actividad 1: Mezclar la baraja
