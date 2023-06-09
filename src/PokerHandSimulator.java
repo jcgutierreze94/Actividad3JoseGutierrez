@@ -13,25 +13,12 @@ class Card {
         this.value = value;
     }
 
-    public String getSuit() {
-        return suit;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
     public String toString() {
         return  "suit=" + suit +
                 ", color=" + color +
                 ", value=" + value ;
     }
 }
-
 class Deck {
     private List<Card> cards;
 
